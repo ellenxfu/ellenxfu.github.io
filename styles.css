@@ -294,6 +294,15 @@ a:hover { text-decoration: underline; }
   max-width: 65ch;
 }
 
+.tldr {
+  font-weight: 600;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 0.35rem;
+}
+
 .policy-list {
   list-style: none;
   display: flex;
