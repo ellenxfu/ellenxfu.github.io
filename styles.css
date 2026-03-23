@@ -95,7 +95,8 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.02em;
   transition: color 0.15s;
 }
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
   color: var(--color-accent);
   text-decoration: none;
 }
